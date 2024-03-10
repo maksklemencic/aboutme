@@ -20,3 +20,14 @@
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
 }
+
+.font-link {
+  font-family: 'Space Grotesk', cursive;
+}
+
+.App {
+  background-color: rgb(17, 24, 39);
+  font-family: 'Space Grotesk', cursive;
+}
+
+
