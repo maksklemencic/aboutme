@@ -2,12 +2,12 @@ import React from "react";
 import rezervacije from "./public/rezervacije.png";
 import social_media_1 from "./public/realtime_1.png";
 import social_media_2 from "./public/realtime_2.png";
-import zdravilko1 from "./zdravilko/IMG_4740.jpg";
-import zdravilko2 from "./zdravilko/IMG_4741.jpg";
-import zdravilko4 from "./zdravilko/IMG_4743.jpg";
-import zdravilko5 from "./zdravilko/IMG_4744.jpg";
-import zdravilko6 from "./zdravilko/IMG_4745.jpg";
-import zdravilko7 from "./zdravilko/IMG_4746.jpg";
+import zdravilko1 from "./public/zdravilko/IMG_4740.jpg";
+import zdravilko2 from "./public/zdravilko/IMG_4741.jpg";
+import zdravilko4 from "./public/zdravilko/IMG_4743.jpg";
+import zdravilko5 from "./public/zdravilko/IMG_4744.jpg";
+import zdravilko6 from "./public/zdravilko/IMG_4745.jpg";
+import zdravilko7 from "./public/zdravilko/IMG_4746.jpg";
 
 import {
   SiMongodb,
