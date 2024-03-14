@@ -17,7 +17,7 @@ function HeroSection() {
         <p className="text-xl text-gray-300 w-full md:w-1/2">
           I'm a an aspiring developer and a passionate programmer, who
           loves to create and learn new things. Based in
-          <strong>Slovenia </strong>📍
+          <label><strong> Slovenia </strong>📍</label>
         </p>
         <div className="flex gap-12 md:gap-6 w-full mt-4">
           <a
