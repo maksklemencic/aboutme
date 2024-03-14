@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/aboutme/static/css/main.4f7ecf04.css",
-    "main.js": "/aboutme/static/js/main.97212a65.js",
+    "main.css": "/aboutme/static/css/main.59a4f230.css",
+    "main.js": "/aboutme/static/js/main.e8e3e834.js",
     "static/media/IMG_4741.jpg": "/aboutme/static/media/IMG_4741.3ede1e53f3738b442b6e.jpg",
-    "static/media/profile_pic.jpg": "/aboutme/static/media/profile_pic.343650922d12b3b9ca65.jpg",
     "static/media/IMG_4746.jpg": "/aboutme/static/media/IMG_4746.7ea2049a2423a6bbd452.jpg",
+    "static/media/profile_pic.jpg": "/aboutme/static/media/profile_pic.127afa6a32ee4e053786.jpg",
     "static/media/IMG_4740.jpg": "/aboutme/static/media/IMG_4740.2c46d7af70a9f2b5eef6.jpg",
     "static/media/IMG_4745.jpg": "/aboutme/static/media/IMG_4745.aac5bd4354125f49692e.jpg",
     "static/media/IMG_4743.jpg": "/aboutme/static/media/IMG_4743.a73e0492ebac30b690e8.jpg",
@@ -13,11 +13,11 @@
     "static/media/realtime_2.png": "/aboutme/static/media/realtime_2.a1da4cbffb46b1f4c38c.png",
     "static/media/rezervacije.png": "/aboutme/static/media/rezervacije.9fad1973af38cc94fc5f.png",
     "index.html": "/aboutme/index.html",
-    "main.4f7ecf04.css.map": "/aboutme/static/css/main.4f7ecf04.css.map",
-    "main.97212a65.js.map": "/aboutme/static/js/main.97212a65.js.map"
+    "main.59a4f230.css.map": "/aboutme/static/css/main.59a4f230.css.map",
+    "main.e8e3e834.js.map": "/aboutme/static/js/main.e8e3e834.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f7ecf04.css",
-    "static/js/main.97212a65.js"
+    "static/css/main.59a4f230.css",
+    "static/js/main.e8e3e834.js"
   ]
 }
