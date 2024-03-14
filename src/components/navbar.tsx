@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 
-function Navbar() {
+interface NavbarProps {
+  scrollToHome: () => void;
+  scrollToProjects: () => void;
+  scrollToStack: () => void;
+  scrollToContact: () => void;
+}
+
+
+function Navbar(props: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -10,10 +18,10 @@ function Navbar() {
           <div className="flex items-center justify-between h-full px-4">
             <div className="text-xl font-bold hover:cursor-pointer hover:text-indigo-500">Maks Klemenčič</div>
             <div className="hidden sm:flex items-center space-x-8 font-semibold">
-              <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold">Home</div>
-              <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold">About</div>
-              <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold">Projects</div>
-              <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold">Contact</div>
+              <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold" onClick={props.scrollToHome}>Home</div>
+              <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold" onClick={props.scrollToProjects}>Projects</div>
+              <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold" onClick={props.scrollToStack}>Skills</div>
+              <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold" onClick={props.scrollToContact}>Contact</div>
             </div>
             <button onClick={() => setIsOpen(!isOpen)} className="sm:hidden z-30 hover:text-indigo-500">
               <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -27,10 +35,10 @@ function Navbar() {
       {isOpen && (
         <div className="fixed inset-0 bg-gray-900 z-10 flex items-center justify-center text-white">
           <div className="flex flex-col items-center space-y-12 font-semibold text-2xl">
-            <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold">Home</div>
-            <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold">About</div>
-            <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold">Projects</div>
-            <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold">Contact</div>
+            <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold" onClick={() => {props.scrollToHome(); setIsOpen(false)}}>Home</div>
+            <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold" onClick={() => {props.scrollToProjects(); setIsOpen(false)}}>Projects</div>
+            <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold" onClick={() => {props.scrollToStack(); setIsOpen(false)}}>Skills</div>
+            <div className="hover:text-indigo-500 hover:cursor-pointer hover:font-bold" onClick={() => {props.scrollToContact(); setIsOpen(false)}}>Contact</div>
           </div>
           <button onClick={() => setIsOpen(false)} className="absolute top-8 right-8 hover:text-indigo-500">
             <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
