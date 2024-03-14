@@ -147,17 +147,7 @@ export default function Projects() {
               <img src={zdravilko5} alt="project" className=" mt-4" />
             </div>
           </div>
-          <div className="flex justify-evenly items-center  gap-1 mt-6">
-            <div className="text-indigo-500 font-semibold flex flex-col items-center">
-              <SiMongodb size={30} color="green" />
-              MongoDb
-            </div>
 
-            <div className="text-indigo-500 font-semibold flex flex-col items-center">
-              <SiReact size={30} color="lightblue" />
-              React Native
-            </div>
-          </div>
         </div>
         <div className="bg-gray-800 rounded-lg p-4 sm:p-12 flex flex-col justify-between border border-gray-700 shadow-md shadow-black ">
           <h2 className="sm:text-xl text-md font-bold text-white">
