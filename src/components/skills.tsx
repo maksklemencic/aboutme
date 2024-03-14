@@ -50,7 +50,7 @@ function Skills() {
             </div>
           </div>
         </div>
-        <div className=" flex flex-col gap-12 items-start">
+        <div className=" flex flex-col gap-12 items-start mt-8">
           <h2 className="text-2xl font-bold text-white">Backend</h2>
           <div className="grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-12 w-full">
             <div className="flex flex-col gap-4 col-span-1 ">

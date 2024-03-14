@@ -12,7 +12,7 @@ function Contact() {
           maks.klemencic6@gmail.com
         </p>
 
-        <div className="flex justify-around w-full mb-20 sm:mb-4 pb-4 mt-4 border-b-2 border-indigo-400 rounded-full">
+        <div className="flex justify-around w-full mb-20 sm:mb-4 pb-4 mt-4 border-b-2 border-indigo-400 rounded-lg">
           <a
             href="https://github.com/maksklemencic"
             target="_blank"

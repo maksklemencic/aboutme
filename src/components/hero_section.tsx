@@ -51,7 +51,7 @@ function HeroSection() {
         </div>
       </div>
       <div className="col-span-6 md:col-span-2 lg:h-full flex justify-center items-center">
-        <img src={profile_pic} alt="hero" className="rounded-full px-12 md:p-0" />
+        <img src={profile_pic} alt="hero" className="sm:rounded-full px-12 md:p-0" />
       </div>
     </div>
   );
